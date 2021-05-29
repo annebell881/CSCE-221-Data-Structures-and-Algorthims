@@ -1,0 +1,492 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Itemize
+Your First Name, Last Name, UIN, Section Number, User Name, E-mail address
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Annemarie, Bell, 529007879, 510, aeb178, aeb178@tamu.ed
+\series default
+u
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+State the Aggie Honor statement:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Aggies do not lie, cheat, or steal, or tolerate those who do.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "l"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+ I certify that I have listed all the sources that I used to develop the
+ solutions and code to the submitted work.
+\end_layout
+
+\begin_layout Quotation
+\noindent
+
+\emph on
+On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work
+\emph default
+.
+\end_layout
+
+\begin_layout Plain Layout
+Your Name
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Annemarie Bell
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Date: 01/23/2021 
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+List any resources used such as webpages (provide URL).
+ Do not mention the textbook and discussions with the Instructor, TA, or
+ Peer Teachers.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+https://en.cppreference.com/w/cpp/language/enum
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+https://www.cplusplus.com/reference/cstdlib/rand/
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+https://www.tutorialspoint.com/cplusplus/cpp_switch_statement.htm
+\end_layout
+
+\begin_layout Itemize
+List any known problems with the assignment you are turning in.
+ For example, if you know your code does not run correctly, state that.
+ This should be a short explanation.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+No problem seem to be avaliable both tests of the of the constructor seem
+ to work, the == operator appeard to work too.
+ Although the random function is questionable for size because it seems
+ to always pick medium, but i guess its just random.
+\end_layout
+
+\begin_layout Itemize
+Provide a short description for the solution or pseudocode.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Create two enums for both the color and size for the stress balls
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+create a class with color and size as private and the other functions as
+ public
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Two Constuctors one as a default the other takes input from the user
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Two functions that grab the size and color of the stress ball and provide
+ it outside of the class
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Create a function to compare two stress balls, using if-else statements
+ to compare color than size
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+OUTSIDE of the class use switches to turn the enum into words and use outstream
+ to output the stressball color and size.
+\end_layout
+
+\begin_layout Itemize
+Provide screenshots of two testcases (from Computer Science Linux machine)
+ and show how you compiled the program (Ex: Command Line and IDE).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Graphics
+	filename Test cases.PNG
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
