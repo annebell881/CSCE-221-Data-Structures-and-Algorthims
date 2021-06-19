@@ -1,0 +1,2800 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "times" "default"
+\font_sans "helvet" "default"
+\font_typewriter "courier" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 0
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2.5cm
+\rightmargin 2.5cm
+\bottommargin 2.5cm
+\headheight 0cm
+\headsep 0cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CSCE 221 - Programming Assignment 4 Report 
+\series bold
+(20 points)
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Due April 14, 2021
+\end_layout
+
+\begin_layout Author
+First Name:
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Annemarie
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Last Name: 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Bell
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+UIN:
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+529007879
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+User Name: 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+aeb178
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+E-mail address:
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+aeb178@tamu.edu
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+Please list all sources in the table below including web pages which you
+ used to solve or implement the current homework.
+ If you fail to cite sources you can get a lower number of points or even
+ zero, read more in the Aggie Honor System Office 
+\begin_inset CommandInset href
+LatexCommand href
+target "http://aggiehonor.tamu.edu/"
+literal "false"
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Type of sources
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+People
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Web pages (provide URL)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+https://www.cplusplus.com/reference/list/list/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+https://www.cplusplus.com/reference/vector/vector/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Printed material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Other Sources
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+I certify that I have listed all the sources that I used to develop the
+ solutions/code to the submitted work.
+\end_layout
+
+\begin_layout Quotation
+“
+\emph on
+On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work.
+\emph default
+” 
+\end_layout
+
+\begin_layout Date
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Your Name (signature)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Annemarie Bell
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+04/08/2021
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The description of the assignment problem.
+\end_layout
+
+\begin_layout Standard
+The goal of this lab is to implement the Minimum Priority Queue (MPQ) ADT
+ based on a linked list, binary heap and a vector, in each of these cases
+ we extend the parent class with MPQ<T> to use a OOP.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The description of data structures and algorithms used to solve the problem.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide definitions of data structures by using Abstract Data Types (ADTs)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+An ADT is is a type (or class) for objects whose behaviour is defined by
+ a set of value and a set of operations.
+ In the three different ADT's used are Vectors, linked list, and a priority
+ queue.
+\end_layout
+
+\begin_layout Itemize
+A Vector is much like a array jus more abstract, the vector can accesss
+ different areas through its functions creating the idea of an ADT.
+\end_layout
+
+\begin_layout Itemize
+Much like a vector a linked list can access certain areas through functions
+ and even sort through the data given this creates an ADT.
+\end_layout
+
+\begin_layout Itemize
+A binary heap is not an ADT but rather the tree like structure created is
+ much like an ADT through the access of the different values through the
+ array like usuage.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Write about the ADTs implementation in C++ (for all the three MPQs).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Through the vector we can see through the ADT implementation though the
+ vectors access to the elements through the at, size, and push_back funxtions
+ we are able to access a number of different areas in the vector and the
+ size of the vector directly through the size function.
+ The push_back function allows us to put an item at the back of the vector
+ without having to access any other sections.
+\end_layout
+
+\begin_layout Itemize
+The list provides access through certain sections of the list through the
+ size, pop, push_front, push_back and pop functions.
+ These functions allow access to the difefrent sections of the array without
+ having to be implemented by the user, we can push a value onto the linked
+ list through the front or back and access what size the list is.
+ Through the pop function we are able to remove the front value, and through
+ the front function we are able to revieve the front value.
+\end_layout
+
+\begin_layout Itemize
+In the binary heap we can use [] to access the different elements and in
+ my impletation we use the .erase function to remove the minimum value in
+ the heap.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Describe algorithms used to solve the problem.
+ For every MPQ
+\family typewriter
+ (UnsortedMPQ
+\family default
+, 
+\family typewriter
+SortedMPQ
+\family default
+ and 
+\family typewriter
+BinaryHeapMPQ
+\family default
+), list the MPQ functions (
+\family typewriter
+remove_min(), is_empty(), min(),
+\family default
+ and 
+\family typewriter
+insert()
+\family default
+) and provide their descriptions.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+UNSORTED:
+\end_layout
+
+\begin_layout Itemize
+remove_min() - For an unsorted MPQ the vector is searched through for the
+ minimum and then is removed once the vector is searched through and found.
+ If the vector is empty then an error is thrown.
+ This function returns the minimum value of the vector.
+\end_layout
+
+\begin_layout Itemize
+is_empty() - This function checks the size of the MPQ and if it is empty
+ returns true, false if otherwise.
+\end_layout
+
+\begin_layout Itemize
+min() - For an unsorted MPQ the vector is searched through for the minimum
+ and placed in an integer.
+ If the vector is empty then an error is thrown.
+ This function returns the minimum value of the vector.
+\end_layout
+
+\begin_layout Itemize
+insert() - This function inserts the value to the end of the vector.
+\end_layout
+
+\begin_layout Standard
+SORTED:
+\end_layout
+
+\begin_layout Itemize
+remove_min() - For a sorted MPQ the linked list pops the first element,
+ and returns it as well.
+ If the list is empty then an error is thrown.
+ 
+\end_layout
+
+\begin_layout Itemize
+is_empty() - This function checks the size of the MPQ and if it is empty
+ returns true, false if otherwise.
+\end_layout
+
+\begin_layout Itemize
+min() -For a sorted MPQ the linked list returns the first value.
+ Throws an error if the list is empty
+\end_layout
+
+\begin_layout Itemize
+insert() - For a sorted MPQ if the linked list is empty then value is pushed
+ to the front, if not the list s itterated through and if the value is less
+ than the current one it is inserted in its place, if the value isnt less
+ than any of the other ones the value is pushed to the back of the list.
+\end_layout
+
+\begin_layout Standard
+BINARY HEAP:
+\end_layout
+
+\begin_layout Itemize
+remove_min() - If the heap is empty an error is thrown.
+ If not place the first element in a int to store for return later, and
+ deincrement the size, create the heap to match the new size and erase the
+ minimum elment, then downheap to sort.
+ Return the the minimum value.
+\end_layout
+
+\begin_layout Itemize
+is_empty() - This function checks the size of the MPQ and if it is empty
+ returns true, false if otherwise.
+\end_layout
+
+\begin_layout Itemize
+min() - The binary heap returns the first value for the minimum, Throws
+ an error if the heap is empty.
+\end_layout
+
+\begin_layout Itemize
+insert() - The heap increases its size by one then adds the data then upheaps
+ the value by the old size to resort the heap.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Show the time complexity analysis for the following.
+ Time complexity analysis means providing a 
+\series bold
+basic runtime function/recurrence relation
+\series default
+, 
+\series bold
+solution for recurrence relation with steps (wherever needed)
+\series default
+ and a 
+\series bold
+Big-O
+\series default
+ Notation:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Best, worst, and average case
+\series default
+ of each of the MPQ functions (
+\family typewriter
+\series bold
+remove_min(), is_empty(), min(),
+\family default
+ and 
+\family typewriter
+insert()
+\family default
+\series default
+) for 
+\family typewriter
+\series bold
+UnsortedMPQ.
+
+\family default
+\series default
+ (Note: Some functions may have same runtimes for all the cases.
+ In that case, write the answer only once and mention that the runtime applies
+ to all the cases.).
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+REMOVE_MIN() -
+\end_layout
+
+\begin_layout Standard
+Best: O(1) in the case of only one element in the vetor then the itteration
+ will stop after one.
+ 
+\end_layout
+
+\begin_layout Standard
+Worst/ Average: O(n) is the average and worst case for an unsorted vector
+ because the vector will always be sorted through in all of the cases, through
+ the loop.
+\end_layout
+
+\begin_layout Standard
+MIN() -
+\end_layout
+
+\begin_layout Standard
+Best: O(1) in the case of only one element in the vetor then the itteration
+ will stop after one.
+\end_layout
+
+\begin_layout Standard
+Worst/ Average: O(n) is the average and worst case for an unsorted vector
+ because the vector will always be sorted through in all of the cases, through
+ the loop.
+\end_layout
+
+\begin_layout Standard
+IS_EMPTY() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/Average: For the all cases is empty is going to be O(1), since
+ all the function does is check against the size of the structure.
+ 
+\end_layout
+
+\begin_layout Standard
+INSERT() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst /Average: O(1) the vector can insert any function into the array
+ without sorting or any complication and just creates a value in any place
+ of the vector.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide an 
+\series bold
+example for
+\series default
+ 
+\series bold
+best, worst, and average case
+\series default
+ for 
+\family typewriter
+\series bold
+UnsortedMPQ
+\family default
+\series default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+BEST: In the best cause a vector would be of size one, in this case there
+ is no itteration through the loop and the functions will just return the
+ minimum that would be simply the first value of the vector.
+\end_layout
+
+\begin_layout Standard
+AVERAGE/WORST: The vector contains the minium anywhere in the vector, because
+ the vector would be greater than one the vector will itterte through all
+ of the vectors to ensure that the minimum of the vector is found.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Best, worst, and average case
+\series default
+ of each of the MPQ functions (
+\family typewriter
+\series bold
+remove_min(), is_empty(), min(),
+\family default
+ and 
+\family typewriter
+insert()
+\family default
+\series default
+) for 
+\family typewriter
+\series bold
+SortedMPQ.
+
+\family default
+\series default
+ (Note: Some functions may have same runtimes for all the cases.
+ In that case, write the answer only once and mention that the runtime applies
+ to all the cases).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+REMOVE_MIN() -
+\end_layout
+
+\begin_layout Standard
+Best/Worst/ Average: O(1), because the function is sorted then the minimum
+ is always going to be at the front of the list.
+\end_layout
+
+\begin_layout Standard
+MIN() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/ Average: O(1), because the function is sorted then the minimum
+ is always going to be at the front of the list.
+\end_layout
+
+\begin_layout Standard
+IS_EMPTY() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/Average: For the all cases is empty is going to be O(1), since
+ all the function does is check against the size of the structure.
+ 
+\end_layout
+
+\begin_layout Standard
+INSERT() -
+\end_layout
+
+\begin_layout Standard
+Best: O(1), the best case is that the list is empty when the node is inserted
+\end_layout
+
+\begin_layout Standard
+Average/ Worst: O(n) in either of these cases the list will have to be itterated
+ inorder to sort the value to where it belongs in the loop.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide an 
+\series bold
+example for
+\series default
+ 
+\series bold
+best, worst, and average case
+\series default
+ for 
+\family typewriter
+\series bold
+SortedMPQ
+\family default
+\series default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+BEST: In the best case the list will be inserted just one value to the list
+ because for all runtimes the value big O would be O(1).
+\end_layout
+
+\begin_layout Standard
+AVERAGE: The average cause would be if the value to be inserted would be
+ in the middle of the list, the list would stop itterating a the function
+ could continue.
+\end_layout
+
+\begin_layout Standard
+WORST: The worst case is that the node to be insereted goes in at te end
+ because the entire list would then need to be itetrated through inorder
+ to insert the node.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Best, worst, and average case
+\series default
+ of each of the MPQ functions (
+\family typewriter
+\series bold
+remove_min(), is_empty(), min(),
+\family default
+ and 
+\family typewriter
+insert()
+\family default
+\series default
+) for 
+\family typewriter
+\series bold
+BinaryHeapMPQ.
+
+\family default
+\series default
+ (Note: Some functions may have same runtimes for all the cases.
+ In that case, write the answer only once and mention that the runtime applies
+ to all the cases).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+REMOVE_MIN() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/ Average: O(logn), swaping the parent node of the tree with
+ the root takes O(1), but to downheap the heap takes the height of the heap
+ which is O(logn) making the big-O equal to O(1) + O(logn) simplfying down
+ to O(logn).
+\end_layout
+
+\begin_layout Standard
+MIN() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/ Average: O(1) because the min is always the root of the parent
+ we would just need to return the root of the node.
+\end_layout
+
+\begin_layout Standard
+IS_EMPTY() -
+\end_layout
+
+\begin_layout Standard
+Best/ Worst/Average: For the all cases is empty is going to be O(1), since
+ all the function does is check against the size of the structure.
+ 
+\end_layout
+
+\begin_layout Standard
+INSERT() -
+\end_layout
+
+\begin_layout Standard
+Best/ Average/ Worst: Based on the code I wrote the big-O is going to be
+ O(log n), the insert would take O(1) moments in the heap however after
+ the heap would need to be sorted which is equivalent of the height, which
+ is logn making the big-O O(1) + O(log n) = O(logn) 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide an 
+\series bold
+example for
+\series default
+ 
+\series bold
+best, worst, and average case
+\series default
+ for 
+\family typewriter
+\series bold
+BinaryHeapMPQ
+\family default
+\series default
+.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+BEST: The best case is always going to be when the heap is empty or only
+ has one element because there is no reason to upheap or downheap making
+ its overall complexity O(1).
+\end_layout
+
+\begin_layout Standard
+Averge/Worst: in an average or worst case the tree would be bigger than
+ one because the tree would then need to upheap or downheap anytime a element
+ is inserted or deleted.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A C++ organization and implementation of the problem solution 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide a list and description of classes or interfaces used by a program
+ such as classes used to implement the data structures or exceptions.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+A struct has been created to hold the expection for an empty MPQ and throw
+ when it is needed.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Provide features of the C++ programming paradigms like Inheritance or Polymorphi
+sm in case of object oriented programming, or Templates in the case of generic
+ programming used in your implementation.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Templetes are used in each of the three MPQ's inorder to proved the idea
+ of whatever is entered into the MPQ does not have to specified as an int
+ or a string, or a double.
+ The templete always them to take whatever variable it needs to complete
+ the function.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A user guide description how to navigate your program with the instructions
+ how to: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+compile the program: specify the directory and file names, etc.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+There is a make file that is used to complie the code by typing make into
+ the terminal.
+\end_layout
+
+\begin_layout Itemize
+Unsorted test complies: g++ -std=c++17 -Wall -Wextra -pedantic -Weffc++
+ UnsortedMPQ.h unsortedmpq-main.cpp
+\end_layout
+
+\begin_layout Itemize
+Sorted test complies: g++ -std=c++17 -Wall -Wextra -pedantic -Weffc++ SortedMPQ.h
+ sortedmpq-main.cpp
+\end_layout
+
+\begin_layout Itemize
+Job cpu test complies: g++ -std=c++17 -Wall -Wextra -pedantic -Weffc++ cpu-job-m
+ain.cpp
+\end_layout
+
+\begin_layout Itemize
+Binary heap complies: g++ -std=c++17 -Wall -Wextra -pedantic -Weffc++ BinaryHeap
+MPQ.h binaryheap-mpq-main.cpp
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+run the program: specify the name of an executable file.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+To run the program enterly you type ./test into the terminal after the code
+ is complied.
+ To test the indivdual complies use ./a.out after each complie
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Specifications and description of input and output formats and files 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The type of files: keyboard, text files, etc (if applicable).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The user is going to input the name of the text files through the keyboard
+ if opened the text file will be used if not then the program will stop
+ running.
+\end_layout
+
+\begin_layout Itemize
+The textfiles uses are going to contain a list of the jobs, in the order
+ of job id, length and priority.
+\end_layout
+
+\begin_layout Itemize
+There is an output file
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A file input format: when a program requires a sequence of input items,
+ specify the number of items per line or a line termination.
+ Provide a sample of a required input format.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The input file requires the Job ID, length and priority, all three are intergers
+ in that specific order.
+\end_layout
+
+\begin_layout Standard
+An Example:
+\end_layout
+
+\begin_layout Standard
+281 1 12
+\end_layout
+
+\begin_layout Standard
+This is a job with the job ID: 281, length of 1 and the prioity is 12
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Discuss possible cases when your program could crash because of incorrect
+ input (a wrong file name, strings instead of a number, or such cases when
+ the program expects 10 items to read and it finds only 9.)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+The possible cases have been covered with a check throughout the main.
+ If invaild input is checked then the program comes back and tells the user,
+ if the textfile has an invaild line or a char input instead of an int then
+ the program will crash.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Provide types of exceptions and their purpose in your program (Answer only
+ to the ones that are applicable for this assignment).
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+logical exceptions (such as deletion of an item from an empty container,
+ etc.).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+There is a logical expection that is thrown anytime a MPQ is empty this
+ provents causing an error for trying to find a minimum of of an empty MPQ,
+ there is an error thrown for if a file can not be opened as well.
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+runtime exception (such as division by 
+\begin_inset Formula $0$
+\end_inset
+
+, etc.)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+In my particualar code I do not have any runtime execptions.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Include evidence of your testing by providing screenshots.
+ Screenshots should show execution of the 5 main methods 
+\family typewriter
+(unsortedmpq-main.cpp, sortedmpq-main.cpp, main.cpp, cpu-job-main.cpp, binaryheap-mp
+q-main.cpp).
+\end_layout
+
+\begin_layout Standard
+UNSORTED:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/Capture.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SORTED:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/Capture.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+BINARY:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/Capture.PNG
+	lyxscale 50
+	scale 150
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+CPU JOB:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/Capture.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+MAIN:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/Capture.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Provide graphs and data tables of your CPU timing simulation results.
+ Graph should be plotted for 
+\series bold
+runtime vs.
+ input size
+\series default
+.
+ The input sizes are 4, 10, 100, and 1,000.
+ To obtain this data, compile and run 
+\family typewriter
+main.cpp
+\family default
+.
+ Choose option 
+\begin_inset Quotes eld
+\end_inset
+
+2.
+ Timing Simulation
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Provide the input file name (SetSize4.txt) and output filename.
+ After execution, you will find the output file in 
+\begin_inset Quotes eld
+\end_inset
+
+OutputFiles
+\begin_inset Quotes erd
+\end_inset
+
+ folder.
+ The timing for all the three MPQ implementations will be displayed.
+ Fill it in the following table and plot it as a 
+\series bold
+graph
+\series default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Runtime
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Input Sizes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Unsorted MPQ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sorted MPQ
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C MPQ
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 (SetSize4.txt)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0078 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0058 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0065 millisec
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10 (SetSize10.txt)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0123 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0078 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0086 millisec
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100 (SetSize100.txt)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.2685 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1198 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0757 millisec
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1000 (SetSize1000.txt)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32.2449 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14.6084 millisec
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.3724 millisec
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename C:/Essays/graph.PNG
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
